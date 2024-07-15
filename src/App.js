@@ -6,7 +6,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const [product, setProduct] = useState([
+  const [product] = useState([
 
     {
       url: 'https://tse2.mm.bing.net/th?id=OIP.ppgxxxhF2iQqk2tWqKXqmgHaHa&pid=Api&P=0&h=180',
