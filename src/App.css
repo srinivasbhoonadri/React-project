@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.shopping-card{
+  justify-content: space-between;
+  background-color: #61dafb;
+  padding: 20px 30px;
+  height: 30px;
+}
+
+.product-item {
+  padding: 20px;
+  margin: 5px;
+  background-color: white;
+}
+.mohan{
+  background-color: yellow;
+}
+.subMenu ul li{
+  list-style: none;
+  margin: 50px;
+  margin-top: 1px;
+}
+.subMenu{
+  color: white;
+  background-color: orange;
+  height: 45px;
+  justify-content: space-between;
+  
+}
+.subMenu ul{
+  
+  display: inline-flex;
+  margin-top: 20px;
+  margin-top: 8px;
+}
