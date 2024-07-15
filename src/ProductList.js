@@ -8,7 +8,7 @@ function ProductList({ product,addToCart }) {
                     return (
                         <div style={{ width: '33%' }}>
                             <div className='product-item'>
-                                <img src={productItem.url} width="45%" />
+                               <img src={productItem.url} alt="product"width="45%" />
                                 <p>{productItem.name} | {productItem.category} </p>
                                 <p> {productItem.seller} </p>
                                 <p> Rs. {productItem.price} /-</p>
